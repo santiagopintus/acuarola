@@ -7,8 +7,8 @@ const ProductsList = ({ products }: { products: Product[] }) => {
     <>
       <div className="products-list container">
         <h2>Pinturas seleccionadas</h2>
-        {products.map((p) => {
-          return <ProductItem p={p} />;
+        {products.map((p, i) => {
+          return <ProductItem key={`prod-${i}`} p={p} />;
         })}
       </div>
     </>

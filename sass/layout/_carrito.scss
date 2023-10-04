@@ -1,0 +1,24 @@
+.cart-items-container {
+  .carrito-item-container {
+    padding: 0.5rem;
+    margin: 1.6rem 0;
+    background-color: $primary;
+    @include flex-start;
+    gap: 2.4rem;
+
+    .carrito-item-img {
+      img {
+        width: 16rem;
+      }
+    }
+    .carrito-item-details {
+      @include flex-start;
+      gap: 1.6rem;
+    }
+  }
+
+  .carrito-details {
+    @include flex-between;
+    padding: 1.6rem 0;
+  }
+}

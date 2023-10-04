@@ -25,6 +25,7 @@
   letter-spacing: 0.5px;
   transition: all 150ms ease-in-out;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .button:hover {
   box-shadow: 0px 0px 4px #081343;
@@ -124,26 +125,97 @@ h4 {
     font-size: 2rem;
   }
 }
-/* Logo */
+i.shopping-cart {
+  content: url(../public/assets/icons/shopping-cart.svg);
+  width: 2rem;
+}
+
 /* LAYOUT STYLES */
 .header-container {
   background-color: #c3c3b7;
 }
-.header-container .logo-container {
+.header-container .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container .header-content .logo-container {
   padding: 1.6rem 0;
 }
-.header-container .logo-container img,
-.header-container .logo-container i {
+.header-container .header-content .logo-container img,
+.header-container .header-content .logo-container i {
   width: 6rem;
   max-height: 3rem;
 }
 
+.footer-container {
+  border-top: 1px solid #ff5c40;
+  margin-top: 2.4rem;
+}
 .footer-container .logo-container {
   padding: 2.4rem 0;
 }
 .footer-container .logo-container img,
 .footer-container .logo-container i {
+  display: block;
+  margin: 0 auto;
   width: 100%;
+  max-width: 50rem;
+}
+
+.cart-items-container .carrito-item-container {
+  padding: 0.5rem;
+  margin: 1.6rem 0;
+  background-color: #1d8f5e;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.4rem;
+}
+.cart-items-container .carrito-item-container .carrito-item-img img {
+  width: 16rem;
+}
+.cart-items-container .carrito-item-container .carrito-item-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.6rem;
+}
+.cart-items-container .carrito-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 0;
+}
+
+.carrito-icon-container {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  transition: background-color 150ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrito-icon-container:hover {
+  background-color: #ffffff;
+}
+.carrito-icon-container .cart-count {
+  font-weight: 700;
+  color: #ff5c40;
+}
+
+.empty-cart-msg {
+  margin: 2.4rem auto;
+  width: fit-content;
+  padding: 1.6rem;
+}
+.empty-cart-msg .button {
+  display: block;
+  margin: 0 auto;
 }
 
 /* PRODUCTS */

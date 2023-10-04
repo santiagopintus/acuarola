@@ -80,4 +80,5 @@ $borderRadiusTabla: 0.8rem;
 $transitionDurationSlower: 400ms;
 $transitionDuration: 150ms;
 $dropdownTransitionDuration: 350ms;
-$transitionAll: all $transitionDuration ease-in-out;
+$transitionTiming: ease-in-out;
+$transitionAll: all $transitionDuration $transitionTiming;

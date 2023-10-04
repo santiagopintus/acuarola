@@ -1,0 +1,19 @@
+.carrito-icon-container {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  transition: background-color $transitionDuration $transitionTiming;
+  @include flex-center;
+
+  &:hover {
+    background-color: $blanco;
+  }
+
+  .cart-count {
+    font-weight: 700;
+    color: $salmon;
+  }
+}

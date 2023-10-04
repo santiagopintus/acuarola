@@ -1,10 +1,15 @@
 .footer-container {
+  border-top: 1px solid $salmon;
+  margin-top: 2.4rem;
   //LOGO
   .logo-container {
     padding: 2.4rem 0;
     img,
     i {
+      display: block;
+      margin: 0 auto;
       width: 100%;
+      max-width: 50rem;
     }
   }
 }

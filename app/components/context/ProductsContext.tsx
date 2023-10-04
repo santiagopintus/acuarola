@@ -8,6 +8,7 @@ interface ProductsContextType {
 }
 
 export type Product = {
+  _id: string;
   id: string;
   price: number;
   title: string;

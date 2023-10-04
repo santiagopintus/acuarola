@@ -1,13 +1,16 @@
 import { useState, useContext } from "react";
 import { Product } from "./context/ProductsContext";
-import { MPContext, MPItem } from "./context/MPContext";
+import { MPContext, CartItem } from "./context/MPContext";
 
 const ProductItem = ({ p }: { p: Product }) => {
   const mpContext = useContext(MPContext);
   const [itemCount, setItemCount] = useState(1);
 
   const onCartAdd = () => {
-    let item: MPItem = {
+    let item: CartItem = {
+      _id: p._id,
+      id: p.id,
+      img: p.images[0],
       quantity: itemCount,
       title: p.title,
       unit_price: p.price,

@@ -15,4 +15,7 @@ const PRODUCTS_EP =
     : PRODUCTS_EP_DEV;
 const productsURL = `${PRODUCTS_EP}/products`;
 
-export { createPreferenceEP, feedbackEP, productsURL };
+/* FRONT END ROUTES */
+const shoppingCartRoute = "/carrito";
+
+export { createPreferenceEP, feedbackEP, productsURL, shoppingCartRoute };

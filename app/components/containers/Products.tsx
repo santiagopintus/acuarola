@@ -8,8 +8,6 @@ const Products = () => {
   const [products, setProducts] = useState<Product[] | null>(null);
 
   useEffect(() => {
-    console.log(pContext.products);
-
     if (pContext.products && pContext.products.length) {
       setProducts(pContext.products);
     }
