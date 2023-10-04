@@ -1,0 +1,83 @@
+// COLORS
+$azul: #081343;
+$verde: #1d8f5e;
+$lightVerde: #66ffbe;
+$salmon: #ff5c40;
+$rojo: #ad311c;
+$rosa: #cea7ad;
+$gris: #c3c3b7;
+$grisOscuro: #8d8d8d;
+$grisDarker: #737373;
+$grisLight: #ececec;
+$errorColor: $rojo;
+$errorBgColor: $rosa;
+$successColor: $verde;
+$successBgColor: #dff0d8;
+$disabledTextColor: $grisOscuro;
+$blanco: #ffffff;
+$negro: #000000;
+
+$componentsColor: $gris;
+
+$textColor: $negro;
+$primary: $verde;
+$secondary: $lightVerde;
+$accent: $salmon;
+$iconsPrimary: $azul;
+
+// BREAKPOINTS
+$mobileMin: 383px;
+$tabletMin: 576px;
+$desktopMin: 768px;
+$largeMin: 1200px;
+
+//Container max size
+$containerWidth: 87.17%;
+$containerWidthDesktop: 78.9%;
+$containerMax: 113.6rem;
+$footerMobileContainerMax: 84vw;
+$splideWidth: calc(100vw - (100% - $containerWidth));
+
+// FONTS
+$titleFont: "Raleway", sans-serif;
+$primaryFont: "Inter", sans-serif;
+// Font sizes
+$fontSize: 1.6rem;
+$fontSizeSm: 1.4rem;
+$buttonFontSize: $fontSize;
+$fontSizeHeader: 1.6rem;
+$h1Size: 2.4rem;
+$h2Size: 2rem;
+$h3Size: 2rem;
+$h4Size: 1.8rem;
+//Desktop font-sizes
+$fontSizeHeaderDesktop: 1.8rem;
+$buttonFontSizeDesktop: $fontSizeHeaderDesktop;
+$h1SizeDesktop: 3.2rem;
+$h2SizeDesktop: 2.4rem;
+$h3SizeDesktop: 2.2rem;
+$h4SizeDesktop: 2rem;
+//Font (Other)
+$lineHeight: 1.5;
+$linksTextDecoration: none;
+
+// SHADOWS & GRADIENTS
+$cardShadow: 0px 0px 4px rgba($negro, 0.4);
+$hoverShadow: 0px 0px 8px 0px rgba($negro, 0.4);
+$gradientPrim: linear-gradient(to right, $verde, $lightVerde);
+
+//BORDERS (According to Figma's border radius)
+$cardRadius: 0.8rem;
+$ctaRadius: 1.6rem;
+$buttonRadius: 2.3rem;
+$badgeRadius: 0.4rem;
+$badgeRadius: 4.4rem;
+$border: 1px solid $gris;
+$borderTabla: 1px solid $textColor;
+$borderRadiusTabla: 0.8rem;
+
+//ANIMATIONS
+$transitionDurationSlower: 400ms;
+$transitionDuration: 150ms;
+$dropdownTransitionDuration: 350ms;
+$transitionAll: all $transitionDuration ease-in-out;

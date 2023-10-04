@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "price": 50.0,
+    "title": "Sunset Over the Ocean",
+    "description": "A beautiful watercolor painting capturing a sunset over the ocean.",
+    "images": ["sunset-ocean.jpg"],
+    "author": "Jane Smith",
+    "tags": ["landscape", "sunset", "ocean"]
+  },
+  {
+    "id": "2",
+    "price": 40.0,
+    "title": "Floral Delight",
+    "description": "An elegant watercolor artwork featuring a bouquet of colorful flowers.",
+    "images": ["floral-delight.jpg"],
+    "author": "David Johnson",
+    "tags": ["floral", "flowers", "nature"]
+  },
+  {
+    "id": "3",
+    "price": 60.0,
+    "title": "Abstract Harmony",
+    "description": "A mesmerizing abstract watercolor painting with vibrant colors.",
+    "images": ["abstract-harmony.jpg"],
+    "author": "Sarah Williams",
+    "tags": ["abstract", "colorful", "art"]
+  },
+  {
+    "id": "4",
+    "price": 45.0,
+    "title": "Cityscape Dreams",
+    "description": "A watercolor depiction of a bustling cityscape at night.",
+    "images": ["cityscape-dreams.jpg"],
+    "author": "Michael Brown",
+    "tags": ["cityscape", "night", "urban"]
+  }
+]

@@ -1,0 +1,15 @@
+/* GLOBAL */
+@import "global/vars";
+@import "global/mixins";
+@import "global/utils";
+@import "global/global";
+@import "global/icons";
+
+/* LAYOUT STYLES */
+@import "layout/home";
+@import "layout/header";
+@import "layout/footer";
+
+/* PRODUCTS */
+@import "layout/products/product-list";
+@import "layout/products/product-card";
